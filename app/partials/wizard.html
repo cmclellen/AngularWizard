@@ -1,4 +1,7 @@
 <div>
-  wizard
-  {{name}}
+  <ul>
+    <li ng-repeat="step in steps">
+      <span ng-bind="step"></span>
+    </li>
+  </ul>
 </div>

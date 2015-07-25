@@ -9,10 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^3.1.26",
     "browser-sync": "^2.8.0",
+    "eslint": "^0.24.1",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
     "gulp-concat": "^2.6.0",
-    "gulp-sourcemaps": "^1.5.2"
+    "gulp-eslint": "^0.15.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "jspm": "^0.15.7"
   }
 }
