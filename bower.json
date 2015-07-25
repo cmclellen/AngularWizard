@@ -1,0 +1,20 @@
+{
+  "name": "AngularWizard",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cmclellen/AngularWizard",
+  "authors": [
+    "Craig McLellen <cmclellen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.3",
+    "bootstrap": "~3.3.5"
+  }
+}
