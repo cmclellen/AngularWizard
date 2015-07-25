@@ -1,16 +1,22 @@
-<html>
+<!doctype html>
+
+<html ng-app="app.angular-wizard">
 <head>
+  <base href="/">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
   <title>Angular Wizard</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
-Hi
-sdasd
-sff
-gherer
-ddd
 
-mooo
+  <div class="container">
+        <div class="page-header">
+            <center><h1>Angular Wizard</h1></center>
+        </div>
+        <div ng-view></div>
+    </div>
+
   <script src="js/all.js"></script>
 </body>
 </html>

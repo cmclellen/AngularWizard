@@ -21,7 +21,14 @@ gulp.task('css', function() {
 });
 
 gulp.task('js', function() {
-  return gulp.src(paths.app + '/js/**/*.js')
+
+  var files=[
+    paths.bower_components+'/angular/angular.js',
+    paths.bower_components+'/angular-route/angular-route.js',
+    paths.app + '/js/**/*.js'
+  ];
+
+  return gulp.src(files)
     .pipe(sourcemaps.init())
     .pipe(babel())
     .pipe(concat('all.js'))
