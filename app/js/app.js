@@ -1,4 +1,4 @@
-var app = angular.module('app.angular-wizard', ['ngRoute']);
+var app = angular.module('app.angular-wizard', ['ngRoute', 'wizard']);
 
 app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 
